@@ -14,5 +14,5 @@ def second_challenge
     new_array
   end
   #binding.pry
-  new_array
+  #new_array
 end
