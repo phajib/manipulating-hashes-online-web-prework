@@ -6,13 +6,13 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  groceries.values.flatten
-  #new_array = []
-  #groceries.values do |k,v|
-  #  new_array<<v
-  #  new_array.flatten
-  #  new_array
-  #end
+  #groceries.values.flatten
+  new_array = []
+  groceries.values do |k,v|
+    groceries<<v
+    groceries.flatten
+    groceries
+  end
   binding.pry
   #new_array
 end
