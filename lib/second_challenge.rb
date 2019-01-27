@@ -9,7 +9,7 @@ def second_challenge
   groceries.values do |k,v|
     #new_array << v
     #new_array.flatten
-    v
+    v.flatten
   end
   #code your solution here!
 
