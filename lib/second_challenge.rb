@@ -6,7 +6,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  
+
   groceries.values do |k,v|
     new_array = []
     new_array<<v
