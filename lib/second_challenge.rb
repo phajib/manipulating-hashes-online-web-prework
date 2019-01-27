@@ -5,11 +5,11 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  new_array = []
+  #new_array = []
   groceries.each do |k,v|
     #new_array << v
     #new_array.flatten
-    v.flatten
+    v
   end
   #code your solution here!
 
