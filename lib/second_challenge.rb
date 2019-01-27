@@ -15,9 +15,5 @@ def second_challenge
     #v.flatten
   end
 binding.pry
-
-  #code your solution here!
-
   #new_array
-
 end
