@@ -13,5 +13,5 @@ def second_challenge
     new_array
   end
   #binding.pry
-  new_array.flatten
+  #new_array.flatten
 end
