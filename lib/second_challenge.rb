@@ -10,8 +10,6 @@ def second_challenge
   groceries.values do |k,v|
     new_array << v
     new_array.flatten
-
-    #v.flatten
   end
   #binding.pry
   #new_array
