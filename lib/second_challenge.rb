@@ -9,9 +9,9 @@ def second_challenge
   #groceries.values.flatten
   new_array = []
   groceries.values do |k,v|
-    groceries<<v
-    groceries.flatten
-    groceries
+    new_array<<v
+    new_array.flatten
+    new_array
   end
   binding.pry
   #new_array
