@@ -6,12 +6,12 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   new_array = []
-  groceries.collect do |k,v|
+  groceries.each do |k,v|
     new_array << v
     new_array.flatten
   end
   #code your solution here!
 
-
+  new_array
 
 end
