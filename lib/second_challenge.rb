@@ -13,6 +13,6 @@ def second_challenge
   end
   #code your solution here!
 
-  new_array.flatten
+  new_array
 
 end
