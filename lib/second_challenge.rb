@@ -5,9 +5,9 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
+  new_array = []
   groceries.collect do |k,v|
-    v
+    new_array << v
   end
   #code your solution here!
 
