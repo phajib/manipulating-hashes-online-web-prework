@@ -7,8 +7,9 @@ def second_challenge
   }
 
   groceries.collect do |k,v|
-    v.flatten
+    v
   end
+  v.flatten
   #code your solution here!
 
 
