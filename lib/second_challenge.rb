@@ -7,6 +7,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   groceries.values
+  groceries.flatten
   #new_array = []
   #groceries.values do |k,v|
   #  new_array<<v
