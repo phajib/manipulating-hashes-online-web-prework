@@ -8,11 +8,13 @@ def second_challenge
   }
   new_array = []
   groceries.values do |k,v|
-    binding.pry
+
     new_array << v
     new_array.flatten
     #v.flatten
   end
+  binding.pry
+  
   #code your solution here!
 
   #new_array
